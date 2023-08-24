@@ -50,7 +50,7 @@ export function Memories() {
   }
 
 return (
-    <div className="flex flex-col gap-10 p-8">
+    <div className="flex flex-col gap-10 p-5 lg:p-8">
     {memories.map((memory) => {
       return (
         <div key={memory.id} className="relative space-y-4">
