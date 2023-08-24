@@ -10,6 +10,16 @@ export function Copyright() {
         >
           Rocketseat
         </a>
+        {' '}by{' '}
+        
+        <a
+          target="_blank"
+          rel="noreferrer"
+          className="underline hover:text-green-400"
+          href="https://linktr.ee/carlindojunior"
+        >
+          Carlindo Junior
+        </a> 
       </div>
     )
   }
